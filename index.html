@@ -135,6 +135,11 @@ tr:hover { background: #1c2128; }
                 <div class="value" id="forks">—</div>
                 <div class="sub">Repository forks</div>
             </div>
+            <div class="card" style="border-color:#30363d;">
+                <div class="label">👀 Watchers</div>
+                <div class="value" id="watchers" style="color:#8b949e;">—</div>
+                <div class="sub">Subscribers</div>
+            </div>
             <div class="card views">
                 <div class="label">👁️ Views (14d)</div>
                 <div class="value" id="views">—</div>
@@ -270,8 +275,10 @@ async function loadData() {
         document.getElementById('updated').textContent = 'Updated: ' + daysAgo(d.fetched_at);
 
         // Core
-        document.getElementById('stars').textContent = fmt(repo.stargazerCount);
-        document.getElementById('forks').textContent = fmt(repo.forkCount);
+        // Stars/forks: REST API uses stargazers_count / forks_count
+        document.getElementById('stars').textContent = fmt(repo.stargazers_count);
+        document.getElementById('forks').textContent = fmt(repo.forks_count);
+        document.getElementById('watchers').textContent = fmt(repo.subscribers_count);
         const totalViews = viewData.reduce((s, v) => s + (v.count || 0), 0);
         const uniqueViews = viewData.reduce((s, v) => s + (v.uniques || 0), 0);
         const totalClones = cloneData.reduce((s, v) => s + (v.count || 0), 0);
@@ -281,7 +288,7 @@ async function loadData() {
         document.getElementById('clones').textContent = fmt(totalClones);
         document.getElementById('unique-clones').textContent = fmt(uniqueClones) + ' unique';
 
-        const openIssues = (repo.issues && repo.issues.totalCount) || repo.open_issues_count || 0;
+        const openIssues = repo.open_issues_count || 0;
         document.getElementById('issues').textContent = openIssues;
 
         const contribCount = (d.contributors || []).length;
@@ -299,8 +306,8 @@ async function loadData() {
 
         // Health score
         let score = 0;
-        const stars = repo.stargazerCount || 0;
-        const forks = repo.forkCount || 0;
+        const stars = repo.stargazers_count || 0;
+        const forks = repo.forks_count || 0;
         score += Math.min(stars, 50) + Math.min(forks * 5, 50) + Math.min(uniqueClones, 50) + Math.min(contribCount * 10, 50);
         if (openIssues > 0) score += 10;
         document.getElementById('health-score').textContent = score;
