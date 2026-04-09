@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agent-OS Admin</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    min-height: 100vh;
+}
+.header {
+    background: linear-gradient(135deg, #161b22 0%, #0d1117 100%);
+    border-bottom: 1px solid #30363d;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.header h1 { font-size: 24px; font-weight: 600; }
+.header h1 span { color: #58a6ff; }
+.header .meta { font-size: 13px; color: #8b949e; display: flex; align-items: center; gap: 8px; }
+.header .status {
+    display: inline-block; width: 8px; height: 8px;
+    background: #3fb950; border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+.container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px; margin-bottom: 24px;
+}
+.card {
+    background: #161b22; border: 1px solid #30363d;
+    border-radius: 12px; padding: 20px;
+    transition: border-color 0.2s;
+}
+.card:hover { border-color: #58a6ff; }
+.card .label { font-size: 13px; color: #8b949e; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.card .value { font-size: 36px; font-weight: 700; color: #e6edf3; }
+.card .sub { font-size: 12px; color: #8b949e; margin-top: 4px; }
+.card.stars .value { color: #f0c040; }
+.card.forks .value { color: #3fb950; }
+.card.clones .value { color: #58a6ff; }
+.card.views .value { color: #bc8cff; }
+.card.issues .value { color: #f85149; }
+.card.contributors .value { color: #f778ba; }
+.card.prs .value { color: #58a6ff; }
+
+.section {
+    background: #161b22; border: 1px solid #30363d;
+    border-radius: 12px; margin-bottom: 24px; overflow: hidden;
+}
+.section-header { padding: 16px 20px; border-bottom: 1px solid #30363d; font-weight: 600; font-size: 15px; }
+.section-body { padding: 0; }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; padding: 10px 16px; font-size: 12px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid #30363d; }
+td { padding: 10px 16px; font-size: 14px; border-bottom: 1px solid #21262d; }
+tr:last-child td { border-bottom: none; }
+tr:hover { background: #1c2128; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+.badge.green { background: #238636; color: #fff; }
+.badge.red { background: #da3633; color: #fff; }
+.badge.blue { background: #1f6feb; color: #fff; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr 1fr; } }
+.loading { text-align: center; padding: 60px; color: #8b949e; }
+.loading .spinner { display: inline-block; width: 32px; height: 32px; border: 3px solid #30363d; border-top-color: #58a6ff; border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 16px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.health { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 8px; font-weight: 600; font-size: 14px; }
+.health.hot { background: #23863620; color: #f85149; border: 1px solid #f8514940; }
+.health.growing { background: #23863620; color: #3fb950; border: 1px solid #23863640; }
+.health.early { background: #1f6feb20; color: #58a6ff; border: 1px solid #1f6feb40; }
+.health.sleeping { background: #30363d40; color: #8b949e; border: 1px solid #30363d; }
+
+.chart-bar-container { display: flex; gap: 6px; align-items: flex-end; height: 120px; padding: 0 4px; }
+.chart-bar-group { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.chart-bars { display: flex; gap: 2px; align-items: flex-end; height: 100px; }
+.chart-bar { width: 10px; border-radius: 3px 3px 0 0; transition: height 0.5s ease; cursor: pointer; position: relative; }
+.chart-bar.views-bar { background: linear-gradient(180deg, #bc8cff, #58a6ff); }
+.chart-bar.clones-bar { background: linear-gradient(180deg, #58a6ff, #3fb950); }
+.chart-bar:hover { opacity: 0.8; }
+.chart-date { font-size: 10px; color: #8b949e; }
+.chart-legend { margin-top: 10px; font-size: 12px; color: #8b949e; text-align: center; }
+.chart-legend span { margin: 0 8px; }
+.legend-dot { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
+.legend-views { background: linear-gradient(180deg, #bc8cff, #58a6ff); }
+.legend-clones { background: linear-gradient(180deg, #58a6ff, #3fb950); }
+
+.empty-state { text-align: center; padding: 30px; color: #8b949e; font-size: 14px; }
+.footer { text-align: center; padding: 20px; color: #484f58; font-size: 12px; border-top: 1px solid #21262d; margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>🤖 Agent-OS <span>Admin</span></h1>
+    <div class="meta">
+        <span class="status"></span>
+        <span id="updated">Loading...</span>
+        <button onclick="loadData()" style="background:#21262d;border:1px solid #30363d;color:#e6edf3;padding:6px 14px;border-radius:8px;cursor:pointer;font-size:13px;margin-left:8px;">↻ Refresh</button>
+    </div>
+</div>
+
+<div class="container">
+    <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <div>Fetching data...</div>
+    </div>
+
+    <div id="dashboard" style="display:none;">
+        <!-- Health -->
+        <div style="margin-bottom: 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <span id="health-badge" class="health early">🌱 EARLY</span>
+            <span style="color: #8b949e; font-size: 14px;">Health Score: <strong id="health-score" style="color: #e6edf3;">0</strong></span>
+            <span style="color: #484f58; font-size: 12px;" id="repo-desc"></span>
+        </div>
+
+        <!-- Core Metrics -->
+        <div class="grid">
+            <div class="card stars">
+                <div class="label">⭐ Stars</div>
+                <div class="value" id="stars">—</div>
+                <div class="sub">Repository stars</div>
+            </div>
+            <div class="card forks">
+                <div class="label">🍴 Forks</div>
+                <div class="value" id="forks">—</div>
+                <div class="sub">Repository forks</div>
+            </div>
+            <div class="card views">
+                <div class="label">👁️ Views (14d)</div>
+                <div class="value" id="views">—</div>
+                <div class="sub"><span id="unique-views">—</span> unique visitors</div>
+            </div>
+            <div class="card clones">
+                <div class="label">📥 Clones (14d)</div>
+                <div class="value" id="clones">—</div>
+                <div class="sub"><span id="unique-clones">—</span> unique clones</div>
+            </div>
+            <div class="card issues">
+                <div class="label">🐛 Open Issues</div>
+                <div class="value" id="issues">—</div>
+                <div class="sub">Bugs & feature requests</div>
+            </div>
+            <div class="card contributors">
+                <div class="label">👥 Contributors</div>
+                <div class="value" id="contributors">—</div>
+                <div class="sub">People who committed</div>
+            </div>
+            <div class="card prs">
+                <div class="label">🔄 Pull Requests</div>
+                <div class="value" id="prs">—</div>
+                <div class="sub" id="prs-sub">—</div>
+            </div>
+        </div>
+
+        <!-- Daily Chart -->
+        <div class="section">
+            <div class="section-header">📅 Daily Traffic (Last 14 Days)</div>
+            <div class="section-body" style="padding: 20px;">
+                <div id="daily-chart" class="chart-bar-container"></div>
+                <div class="chart-legend">
+                    <span><span class="legend-dot legend-views"></span> Views</span>
+                    <span><span class="legend-dot legend-clones"></span> Clones</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="two-col">
+            <!-- Traffic Sources -->
+            <div class="section">
+                <div class="section-header">🔗 Traffic Sources</div>
+                <div class="section-body">
+                    <table>
+                        <thead><tr><th>Source</th><th>Views</th><th>Unique</th></tr></thead>
+                        <tbody id="referrers-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Popular Pages -->
+            <div class="section">
+                <div class="section-header">📄 Popular Pages</div>
+                <div class="section-body">
+                    <table>
+                        <thead><tr><th>Path</th><th>Views</th><th>Unique</th></tr></thead>
+                        <tbody id="paths-body"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Commits -->
+        <div class="section">
+            <div class="section-header">💻 Recent Commits</div>
+            <div class="section-body">
+                <table>
+                    <thead><tr><th>When</th><th>Author</th><th>Message</th></tr></thead>
+                    <tbody id="commits-body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Open Issues -->
+        <div class="section">
+            <div class="section-header">🐛 Open Issues</div>
+            <div class="section-body">
+                <table>
+                    <thead><tr><th>#</th><th>Title</th><th>Author</th></tr></thead>
+                    <tbody id="issues-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    Agent-OS Admin Dashboard · Auto-updates every 6 hours via GitHub Actions
+</div>
+
+<script>
+function daysAgo(iso) {
+    if (!iso) return '—';
+    const d = new Date(iso);
+    const now = new Date();
+    const diff = Math.floor((now - d) / 1000);
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff/60) + 'm ago';
+    if (diff < 86400) return Math.floor(diff/3600) + 'h ago';
+    if (diff < 172800) return 'yesterday';
+    return Math.floor(diff/86400) + 'd ago';
+}
+
+function fmt(n) {
+    if (n == null) return '—';
+    if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
+    if (n >= 1000) return (n/1000).toFixed(1) + 'K';
+    return n.toString();
+}
+
+async function loadData() {
+    try {
+        // Add cache-buster to always get fresh data.json
+        const resp = await fetch('data.json?t=' + Date.now());
+        const d = await resp.json();
+
+        if (!d.repo || d.error) {
+            document.getElementById('loading').innerHTML = '<div style="color:#f85149;">⚠️ No data yet. The GitHub Action needs to run first to populate data.json.</div>';
+            return;
+        }
+
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('dashboard').style.display = 'block';
+
+        const repo = d.repo || {};
+        const views = d.views || {};
+        const clones = d.clones || {};
+        const viewData = views.views || [];
+        const cloneData = clones.clones || [];
+
+        // Timestamp
+        document.getElementById('updated').textContent = 'Updated: ' + daysAgo(d.fetched_at);
+
+        // Core
+        document.getElementById('stars').textContent = fmt(repo.stargazerCount);
+        document.getElementById('forks').textContent = fmt(repo.forkCount);
+        const totalViews = viewData.reduce((s, v) => s + (v.count || 0), 0);
+        const uniqueViews = viewData.reduce((s, v) => s + (v.uniques || 0), 0);
+        const totalClones = cloneData.reduce((s, v) => s + (v.count || 0), 0);
+        const uniqueClones = cloneData.reduce((s, v) => s + (v.uniques || 0), 0);
+        document.getElementById('views').textContent = fmt(totalViews);
+        document.getElementById('unique-views').textContent = fmt(uniqueViews) + ' unique';
+        document.getElementById('clones').textContent = fmt(totalClones);
+        document.getElementById('unique-clones').textContent = fmt(uniqueClones) + ' unique';
+
+        const openIssues = (repo.issues && repo.issues.totalCount) || repo.open_issues_count || 0;
+        document.getElementById('issues').textContent = openIssues;
+
+        const contribCount = (d.contributors || []).length;
+        document.getElementById('contributors').textContent = contribCount;
+
+        // PRs
+        const pulls = d.pulls || [];
+        const prOpen = pulls.filter(p => p.state === 'open' && !p.merged_at).length;
+        const prMerged = pulls.filter(p => p.merged_at).length;
+        document.getElementById('prs').textContent = pulls.length;
+        document.getElementById('prs-sub').textContent = prOpen + ' open · ' + prMerged + ' merged';
+
+        // Repo description
+        document.getElementById('repo-desc').textContent = repo.description || '';
+
+        // Health score
+        let score = 0;
+        const stars = repo.stargazerCount || 0;
+        const forks = repo.forkCount || 0;
+        score += Math.min(stars, 50) + Math.min(forks * 5, 50) + Math.min(uniqueClones, 50) + Math.min(contribCount * 10, 50);
+        if (openIssues > 0) score += 10;
+        document.getElementById('health-score').textContent = score;
+        const hb = document.getElementById('health-badge');
+        if (score >= 100) { hb.className = 'health hot'; hb.textContent = '🔥 HOT'; }
+        else if (score >= 50) { hb.className = 'health growing'; hb.textContent = '📈 GROWING'; }
+        else if (score >= 10) { hb.className = 'health early'; hb.textContent = '🌱 EARLY'; }
+        else { hb.className = 'health sleeping'; hb.textContent = '💤 SLEEPING'; }
+
+        // Daily chart
+        const maxVal = Math.max(...viewData.map(v => v.count || 0), ...cloneData.map(c => c.count || 0), 1);
+        let chartHtml = '';
+        viewData.forEach((v, i) => {
+            const c = cloneData[i] || {};
+            const vh = Math.max(2, ((v.count || 0) / maxVal) * 100);
+            const ch = Math.max(2, ((c.count || 0) / maxVal) * 100);
+            const date = (v.timestamp || '').slice(5, 10);
+            chartHtml += `<div class="chart-bar-group">
+                <div class="chart-bars">
+                    <div class="chart-bar views-bar" style="height:${vh}px" title="Views: ${v.count||0} (${v.uniques||0} unique)"></div>
+                    <div class="chart-bar clones-bar" style="height:${ch}px" title="Clones: ${c.count||0} (${c.uniques||0} unique)"></div>
+                </div>
+                <div class="chart-date">${date}</div>
+            </div>`;
+        });
+        document.getElementById('daily-chart').innerHTML = chartHtml || '<div class="empty-state">No traffic data yet</div>';
+
+        // Referrers
+        const refBody = document.getElementById('referrers-body');
+        const referrers = d.referrers || [];
+        refBody.innerHTML = referrers.length
+            ? referrers.map(r => `<tr><td>${r.referrer || '—'}</td><td>${r.count || 0}</td><td>${r.uniques || 0}</td></tr>`).join('')
+            : '<tr><td colspan="3" class="empty-state">No referrer data yet</td></tr>';
+
+        // Popular paths
+        const pathBody = document.getElementById('paths-body');
+        const paths = d.popular_paths || [];
+        pathBody.innerHTML = paths.length
+            ? paths.map(p => `<tr><td style="font-family:monospace;font-size:13px;">${(p.path||'/').slice(0,45)}</td><td>${p.count||0}</td><td>${p.uniques||0}</td></tr>`).join('')
+            : '<tr><td colspan="3" class="empty-state">No path data yet</td></tr>';
+
+        // Commits
+        const commitBody = document.getElementById('commits-body');
+        const commits = d.commits || [];
+        commitBody.innerHTML = commits.map(c => {
+            const commit = c.commit || {};
+            const author = commit.author || {};
+            const msg = (commit.message || '').split('\n')[0].slice(0, 70);
+            return `<tr><td style="color:#8b949e;">${daysAgo(author.date)}</td><td>${author.name || '—'}</td><td>${msg}</td></tr>`;
+        }).join('');
+
+        // Issues
+        const issueBody = document.getElementById('issues-body');
+        const issues = d.issues || [];
+        issueBody.innerHTML = issues.length
+            ? issues.slice(0, 20).map(i => `<tr><td style="color:#8b949e;">#${i.number}</td><td>${(i.title||'').slice(0,70)}</td><td style="color:#8b949e;">${(i.user||{}).login||'—'}</td></tr>`).join('')
+            : '<tr><td colspan="3" class="empty-state">No open issues 🎉</td></tr>';
+
+    } catch (e) {
+        document.getElementById('loading').innerHTML = `<div style="color:#f85149;">⚠️ Could not load data.json<br><span style="color:#8b949e;font-size:13px;">The GitHub Action needs to run first. Error: ${e.message}</span></div>`;
+    }
+}
+
+loadData();
+</script>
+</body>
+</html>
