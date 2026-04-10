@@ -67,14 +67,14 @@
     "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
     "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
     "created_at": "2026-04-08T09:13:53Z",
-    "updated_at": "2026-04-09T17:55:02Z",
-    "pushed_at": "2026-04-09T17:54:58Z",
+    "updated_at": "2026-04-10T03:13:53Z",
+    "pushed_at": "2026-04-10T03:13:45Z",
     "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
     "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
     "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
     "svn_url": "https://github.com/factspark23-hash/Agent-OS",
     "homepage": null,
-    "size": 775,
+    "size": 8612,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "Python",
@@ -335,7 +335,7 @@
       "type": "User",
       "user_view_type": "public",
       "site_admin": false,
-      "contributions": 26
+      "contributions": 31
     },
     {
       "login": "penggaolai",
@@ -716,14 +716,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -851,14 +851,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -1067,14 +1067,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -1202,14 +1202,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -1418,14 +1418,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -1553,14 +1553,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -1769,14 +1769,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -1904,14 +1904,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -2120,14 +2120,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -2255,14 +2255,14 @@
           "releases_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/releases{/id}",
           "deployments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/deployments",
           "created_at": "2026-04-08T09:13:53Z",
-          "updated_at": "2026-04-09T17:55:02Z",
-          "pushed_at": "2026-04-09T17:54:58Z",
+          "updated_at": "2026-04-10T03:13:53Z",
+          "pushed_at": "2026-04-10T03:13:45Z",
           "git_url": "git://github.com/factspark23-hash/Agent-OS.git",
           "ssh_url": "git@github.com:factspark23-hash/Agent-OS.git",
           "clone_url": "https://github.com/factspark23-hash/Agent-OS.git",
           "svn_url": "https://github.com/factspark23-hash/Agent-OS",
           "homepage": null,
-          "size": 775,
+          "size": 8612,
           "stargazers_count": 0,
           "watchers_count": 0,
           "language": "Python",
@@ -2330,6 +2330,542 @@
     }
   ],
   "commits": [
+    {
+      "sha": "2f525b787e64f76a5fcac8f5d6b5de80f9d7909a",
+      "node_id": "C_kwDOR86dntoAKDJmNTI1Yjc4N2U2NGY3NmE1ZmNhYzhmNWQ2YjVkZTgwZjlkNzkwOWE",
+      "commit": {
+        "author": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:13:44Z"
+        },
+        "committer": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:13:44Z"
+        },
+        "message": "security: separate vault key from vault file using XDG data dir\n\n- Vault key now stored in ~/.local/share/agent-os/ (XDG_DATA_HOME)\n- Separate from vault.enc in ~/.agent-os/\n- Auto-migrates existing key from legacy location\n- Key permissions set to 0600",
+        "tree": {
+          "sha": "ea21e235ffe6d53897372e6939520a7f7b3ce383",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/ea21e235ffe6d53897372e6939520a7f7b3ce383"
+        },
+        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/2f525b787e64f76a5fcac8f5d6b5de80f9d7909a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/2f525b787e64f76a5fcac8f5d6b5de80f9d7909a",
+      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/2f525b787e64f76a5fcac8f5d6b5de80f9d7909a",
+      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/2f525b787e64f76a5fcac8f5d6b5de80f9d7909a/comments",
+      "author": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6e83e44924cad6c67b9f914850c28975f90898a5",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/6e83e44924cad6c67b9f914850c28975f90898a5",
+          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/6e83e44924cad6c67b9f914850c28975f90898a5"
+        }
+      ]
+    },
+    {
+      "sha": "6e83e44924cad6c67b9f914850c28975f90898a5",
+      "node_id": "C_kwDOR86dntoAKDZlODNlNDQ5MjRjYWQ2YzY3YjlmOTE0ODUwYzI4OTc1ZjkwODk4YTU",
+      "commit": {
+        "author": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:12:44Z"
+        },
+        "committer": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:12:44Z"
+        },
+        "message": "security: encrypt session cookies on disk\n\n- Cookies now stored as .enc files using Fernet encryption\n- Separate encryption key from vault key (.cookie_key)\n- Key file permissions set to 0600 (owner-only)\n- Old unencrypted cookie files will be ignored gracefully",
+        "tree": {
+          "sha": "98fc6eb5ad788cb75b31d100f8c3490420806700",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/98fc6eb5ad788cb75b31d100f8c3490420806700"
+        },
+        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/6e83e44924cad6c67b9f914850c28975f90898a5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/6e83e44924cad6c67b9f914850c28975f90898a5",
+      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/6e83e44924cad6c67b9f914850c28975f90898a5",
+      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/6e83e44924cad6c67b9f914850c28975f90898a5/comments",
+      "author": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "611d443f2f9368f8f7ba4441bce6dc44478935db",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/611d443f2f9368f8f7ba4441bce6dc44478935db",
+          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/611d443f2f9368f8f7ba4441bce6dc44478935db"
+        }
+      ]
+    },
+    {
+      "sha": "611d443f2f9368f8f7ba4441bce6dc44478935db",
+      "node_id": "C_kwDOR86dntoAKDYxMWQ0NDNmMmY5MzY4ZjhmN2JhNDQ0MWJjZTZkYzQ0NDc4OTM1ZGI",
+      "commit": {
+        "author": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:11:22Z"
+        },
+        "committer": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:11:22Z"
+        },
+        "message": "fix: rate limiter bounded memory with periodic cleanup\n\n- Background task cleans stale entries every 2 minutes\n- Hard cap at 10000 unique identifiers (configurable)\n- Evicts oldest 20% when cap exceeded\n- Prevents DoS via rate limiter memory exhaustion",
+        "tree": {
+          "sha": "18e772acd1a5373dd6f6bcdb74187270f636225e",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/18e772acd1a5373dd6f6bcdb74187270f636225e"
+        },
+        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/611d443f2f9368f8f7ba4441bce6dc44478935db",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/611d443f2f9368f8f7ba4441bce6dc44478935db",
+      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/611d443f2f9368f8f7ba4441bce6dc44478935db",
+      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/611d443f2f9368f8f7ba4441bce6dc44478935db/comments",
+      "author": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0d4b749ef5805f5cc95940cb47865ba6b2289d12",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/0d4b749ef5805f5cc95940cb47865ba6b2289d12",
+          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/0d4b749ef5805f5cc95940cb47865ba6b2289d12"
+        }
+      ]
+    },
+    {
+      "sha": "0d4b749ef5805f5cc95940cb47865ba6b2289d12",
+      "node_id": "C_kwDOR86dntoAKDBkNGI3NDllZjU4MDVmNWNjOTU5NDBjYjQ3ODY1YmE2YjIyODlkMTI",
+      "commit": {
+        "author": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:09:30Z"
+        },
+        "committer": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:09:30Z"
+        },
+        "message": "security: add auth to debug UI, fix CORS defaults\n\n- Debug server now requires valid agent token for all endpoints\n- Auth via Authorization header, query param, or cookie\n- Static assets (CSS/JS) still accessible for UI loading\n- CORS default changed from wildcard (*) to strict localhost\n- Server CORS fallback also uses localhost instead of *",
+        "tree": {
+          "sha": "b1f60c7345f56be845ff4629030e34fc2a1d1f1f",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/b1f60c7345f56be845ff4629030e34fc2a1d1f1f"
+        },
+        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/0d4b749ef5805f5cc95940cb47865ba6b2289d12",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/0d4b749ef5805f5cc95940cb47865ba6b2289d12",
+      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/0d4b749ef5805f5cc95940cb47865ba6b2289d12",
+      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/0d4b749ef5805f5cc95940cb47865ba6b2289d12/comments",
+      "author": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e20f71c897922a89142e7a940a18efb8b952b291",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/e20f71c897922a89142e7a940a18efb8b952b291",
+          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/e20f71c897922a89142e7a940a18efb8b952b291"
+        }
+      ]
+    },
+    {
+      "sha": "e20f71c897922a89142e7a940a18efb8b952b291",
+      "node_id": "C_kwDOR86dntoAKGUyMGY3MWM4OTc5MjJhODkxNDJlN2E5NDBhMThlZmI4Yjk1MmIyOTE",
+      "commit": {
+        "author": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:07:29Z"
+        },
+        "committer": {
+          "name": "factspark23-hash",
+          "email": "factspark23-hash@users.noreply.github.com",
+          "date": "2026-04-10T03:07:29Z"
+        },
+        "message": "security: hash tokens in config, constant-time comparison, persist auto-generated tokens\n\n- Config.set() no longer auto-saves on every call (batch writes)\n- Auto-generated agent token now persisted to config (survives restarts)\n- Token comparison uses hmac.compare_digest() to prevent timing attacks\n- Added verify_token() method for constant-time hash verification",
+        "tree": {
+          "sha": "15373e415cf272e8cfe7a5844496967d45caac50",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/15373e415cf272e8cfe7a5844496967d45caac50"
+        },
+        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/e20f71c897922a89142e7a940a18efb8b952b291",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/e20f71c897922a89142e7a940a18efb8b952b291",
+      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/e20f71c897922a89142e7a940a18efb8b952b291",
+      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/e20f71c897922a89142e7a940a18efb8b952b291/comments",
+      "author": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "factspark23-hash",
+        "id": 256930858,
+        "node_id": "U_kgDOD1B0Kg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/factspark23-hash",
+        "html_url": "https://github.com/factspark23-hash",
+        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
+        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
+        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
+        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4d22721b55d4371731112183b5fbde0b01ef7032",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/4d22721b55d4371731112183b5fbde0b01ef7032",
+          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/4d22721b55d4371731112183b5fbde0b01ef7032"
+        }
+      ]
+    },
+    {
+      "sha": "4d22721b55d4371731112183b5fbde0b01ef7032",
+      "node_id": "C_kwDOR86dntoAKDRkMjI3MjFiNTVkNDM3MTczMTExMjE4M2I1ZmJkZTBiMDFlZjcwMzI",
+      "commit": {
+        "author": {
+          "name": "x",
+          "email": "admin@agent-os.dev",
+          "date": "2026-04-09T19:15:29Z"
+        },
+        "committer": {
+          "name": "x",
+          "email": "admin@agent-os.dev",
+          "date": "2026-04-09T19:15:29Z"
+        },
+        "message": "demo: full human capabilities \u2014 search, click, fill forms, tabs, mobile, cookies\n\nProves Agent-OS can do everything a human can do:\n- Amazon: search products, browse results, add to cart\n- Google: search and click results\n- Wikipedia: read, extract data, SEO analysis\n- GitHub: fill login form (username + password)\n- Multi-tab: open, navigate, switch between tabs\n- Network capture: monitor all HTTP requests\n- Mobile emulation: browse as iPhone 14\n- Table extraction: structured data from pages\n- Session save/restore: persistent browser state\n- Cookie management: get and set cookies\n\nAll screenshots captured as proof in proof/ directory.",
+        "tree": {
+          "sha": "dbb0fbe93e567499aeb5169178d67d4aad45d3eb",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/dbb0fbe93e567499aeb5169178d67d4aad45d3eb"
+        },
+        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/4d22721b55d4371731112183b5fbde0b01ef7032",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/4d22721b55d4371731112183b5fbde0b01ef7032",
+      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/4d22721b55d4371731112183b5fbde0b01ef7032",
+      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/4d22721b55d4371731112183b5fbde0b01ef7032/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "7ed20d05b1eaca95a04899bf536a3b8488afdcb1",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/7ed20d05b1eaca95a04899bf536a3b8488afdcb1",
+          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/7ed20d05b1eaca95a04899bf536a3b8488afdcb1"
+        }
+      ]
+    },
+    {
+      "sha": "7ed20d05b1eaca95a04899bf536a3b8488afdcb1",
+      "node_id": "C_kwDOR86dntoAKDdlZDIwZDA1YjFlYWNhOTVhMDQ4OTliZjUzNmEzYjg0ODhhZmRjYjE",
+      "commit": {
+        "author": {
+          "name": "x",
+          "email": "admin@agent-os.dev",
+          "date": "2026-04-09T19:10:12Z"
+        },
+        "committer": {
+          "name": "x",
+          "email": "admin@agent-os.dev",
+          "date": "2026-04-09T19:10:12Z"
+        },
+        "message": "test: 50-site stress test proof \u2014 92% success rate with bot-protected sites\n\nScreenshots from Amazon, Facebook, Instagram, LinkedIn, Booking.com,\nNY Times, BBC, CNN, Walmart, eBay, Yahoo Finance, Google.\n\n46/50 sites browsed successfully including heavy bot-detection sites.\nOnly 4 blocked (Cloudflare), 1 failed (HTTP/2 error).\n\nAnti-detection: reCAPTCHA/hCaptcha/Cloudflare blocked before loading.\nHuman mimicry: Bezier mouse, typing delays, fingerprint spoofing.",
+        "tree": {
+          "sha": "b0cc6ece8950742bdf8e39418bd78ecfc218a4f9",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/b0cc6ece8950742bdf8e39418bd78ecfc218a4f9"
+        },
+        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/7ed20d05b1eaca95a04899bf536a3b8488afdcb1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/7ed20d05b1eaca95a04899bf536a3b8488afdcb1",
+      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/7ed20d05b1eaca95a04899bf536a3b8488afdcb1",
+      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/7ed20d05b1eaca95a04899bf536a3b8488afdcb1/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "1a23e94eb74aaa5c2c5788eaf5b5aad6df02e91d",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/1a23e94eb74aaa5c2c5788eaf5b5aad6df02e91d",
+          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/1a23e94eb74aaa5c2c5788eaf5b5aad6df02e91d"
+        }
+      ]
+    },
+    {
+      "sha": "1a23e94eb74aaa5c2c5788eaf5b5aad6df02e91d",
+      "node_id": "C_kwDOR86dntoAKDFhMjNlOTRlYjc0YWFhNWMyYzU3ODhlYWY1YjVhYWQ2ZGYwMmU5MWQ",
+      "commit": {
+        "author": {
+          "name": "x",
+          "email": "admin@agent-os.dev",
+          "date": "2026-04-09T18:54:03Z"
+        },
+        "committer": {
+          "name": "x",
+          "email": "admin@agent-os.dev",
+          "date": "2026-04-09T18:54:03Z"
+        },
+        "message": "fix: venv creation fallback for systems without ensurepip (Ubuntu 24.04+)",
+        "tree": {
+          "sha": "3ccafb0836d2c8f07e25c49fa438c411e5ee17f0",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/3ccafb0836d2c8f07e25c49fa438c411e5ee17f0"
+        },
+        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/1a23e94eb74aaa5c2c5788eaf5b5aad6df02e91d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/1a23e94eb74aaa5c2c5788eaf5b5aad6df02e91d",
+      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/1a23e94eb74aaa5c2c5788eaf5b5aad6df02e91d",
+      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/1a23e94eb74aaa5c2c5788eaf5b5aad6df02e91d/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "dee9917679bcee017c3c0a3d217a6a2ccb5b84ea",
+          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/dee9917679bcee017c3c0a3d217a6a2ccb5b84ea",
+          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/dee9917679bcee017c3c0a3d217a6a2ccb5b84ea"
+        }
+      ]
+    },
     {
       "sha": "dee9917679bcee017c3c0a3d217a6a2ccb5b84ea",
       "node_id": "C_kwDOR86dntoAKGRlZTk5MTc2NzliY2VlMDE3YzNjMGEzZDIxN2E2YTJjY2I1Yjg0ZWE",
@@ -3313,633 +3849,7 @@
           "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/e7932bda711486af459b0e89a093267ca4054193"
         }
       ]
-    },
-    {
-      "sha": "e7932bda711486af459b0e89a093267ca4054193",
-      "node_id": "C_kwDOR86dntoAKGU3OTMyYmRhNzExNDg2YWY0NTliMGU4OWEwOTMyNjdjYTQwNTQxOTM",
-      "commit": {
-        "author": {
-          "name": "factspark23-hash",
-          "email": "factspark23@gmail.com",
-          "date": "2026-04-09T13:19:05Z"
-        },
-        "committer": {
-          "name": "GitHub",
-          "email": "noreply@github.com",
-          "date": "2026-04-09T13:19:05Z"
-        },
-        "message": "Merge pull request #5 from factspark23-hash/feat/cli-tests-env\n\nfeat: CLI script (74 commands), tests, .env.example",
-        "tree": {
-          "sha": "cf957e41be9fe0c58de45c05975784c99938aa4e",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/cf957e41be9fe0c58de45c05975784c99938aa4e"
-        },
-        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/e7932bda711486af459b0e89a093267ca4054193",
-        "comment_count": 0,
-        "verification": {
-          "verified": true,
-          "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp16dJCRC1aQ7uu5UhlAAAuFIQAFcOrHgnCTkbYdrfNB5ywUEz\ne3tNz2ml4/PyjFFR/G7+RyXz4rN5Xc2v4ago/f4NkXfWFvHe8p+nDiznD4JbZk0u\nlTnpcOYE+uwOhGvTuhI6Ube2AxIsZx/48tSYbsIfRtw6oxIXPBI2C3j5azSoC4Gq\nk7bXFPTViBXcEsqbpGfssl9aPloe892uG0SBtr0TWVfWfdCNn6wUDM7fq/JL2N1O\n3N+G789PvweiBn2Skz3muqET0oR4l5d38+6Z7yWVL5KlM1EYzCQo0nCdUE+BKawU\nj15c9/9nXoXzDSStxb0SQrvRp+SJQQBBpHUJjsZyyVNNC7l1ITbn2yrlhE3/eFjV\n/7FQuawSmS7bDSTN/lhNHu/R0eyS70ubAJ2HlcmS7DR5KObdJlyBhSd6Sl4vjDt1\nAGLKXG7Y5M9eFE/FZE95A3j4pDE7Rga4cQaHPVlNGfZzbPKnNLyWmzNDdaK92I4q\n3Sl41MZfUCry4xva0VcWGSSKxD0Y/jrbZVVxPmORMpXWqYi9mUB19KXzFrs2ORmf\ndLPnF++04tM99/dChLSyHKLyRuMzylXCsRT92Quce2B7gGwPYCFISjjgzft2CGc4\nKnXep3EmNclXgK9OS3nzgKLLlU8p9fXP6Xra7E9zLiHYhrP+WIr3VQD9hJrXK3mx\nz8OHROFUITZRsSGeHTuC\n=C5YD\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree cf957e41be9fe0c58de45c05975784c99938aa4e\nparent 3b8b4b26c152931f8ccb063dd72badf1a80a6517\nparent 4f82bf4e8c6011359f6709e46c716ce935fcab18\nauthor factspark23-hash <factspark23@gmail.com> 1775740745 +0530\ncommitter GitHub <noreply@github.com> 1775740745 +0530\n\nMerge pull request #5 from factspark23-hash/feat/cli-tests-env\n\nfeat: CLI script (74 commands), tests, .env.example",
-          "verified_at": "2026-04-09T13:19:05Z"
-        }
-      },
-      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/e7932bda711486af459b0e89a093267ca4054193",
-      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/e7932bda711486af459b0e89a093267ca4054193",
-      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/e7932bda711486af459b0e89a093267ca4054193/comments",
-      "author": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "committer": {
-        "login": "web-flow",
-        "id": 19864447,
-        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/web-flow",
-        "html_url": "https://github.com/web-flow",
-        "followers_url": "https://api.github.com/users/web-flow/followers",
-        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-        "organizations_url": "https://api.github.com/users/web-flow/orgs",
-        "repos_url": "https://api.github.com/users/web-flow/repos",
-        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/web-flow/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "parents": [
-        {
-          "sha": "3b8b4b26c152931f8ccb063dd72badf1a80a6517",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/3b8b4b26c152931f8ccb063dd72badf1a80a6517",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/3b8b4b26c152931f8ccb063dd72badf1a80a6517"
-        },
-        {
-          "sha": "4f82bf4e8c6011359f6709e46c716ce935fcab18",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/4f82bf4e8c6011359f6709e46c716ce935fcab18",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/4f82bf4e8c6011359f6709e46c716ce935fcab18"
-        }
-      ]
-    },
-    {
-      "sha": "4f82bf4e8c6011359f6709e46c716ce935fcab18",
-      "node_id": "C_kwDOR86dntoAKDRmODJiZjRlOGM2MDExMzU5ZjY3MDllNDZjNzE2Y2U5MzVmY2FiMTg",
-      "commit": {
-        "author": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-09T13:18:25Z"
-        },
-        "committer": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-09T13:18:25Z"
-        },
-        "message": "feat: update CLI script (74 commands), tests (39 tools), .env.example with proxy/device support",
-        "tree": {
-          "sha": "cf957e41be9fe0c58de45c05975784c99938aa4e",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/cf957e41be9fe0c58de45c05975784c99938aa4e"
-        },
-        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/4f82bf4e8c6011359f6709e46c716ce935fcab18",
-        "comment_count": 0,
-        "verification": {
-          "verified": false,
-          "reason": "unsigned",
-          "signature": null,
-          "payload": null,
-          "verified_at": null
-        }
-      },
-      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/4f82bf4e8c6011359f6709e46c716ce935fcab18",
-      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/4f82bf4e8c6011359f6709e46c716ce935fcab18",
-      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/4f82bf4e8c6011359f6709e46c716ce935fcab18/comments",
-      "author": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "committer": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "parents": [
-        {
-          "sha": "3b8b4b26c152931f8ccb063dd72badf1a80a6517",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/3b8b4b26c152931f8ccb063dd72badf1a80a6517",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/3b8b4b26c152931f8ccb063dd72badf1a80a6517"
-        }
-      ]
-    },
-    {
-      "sha": "3b8b4b26c152931f8ccb063dd72badf1a80a6517",
-      "node_id": "C_kwDOR86dntoAKDNiOGI0YjI2YzE1MjkzMWY4Y2NiMDYzZGQ3MmJhZGYxYTgwYTY1MTc",
-      "commit": {
-        "author": {
-          "name": "factspark23-hash",
-          "email": "factspark23@gmail.com",
-          "date": "2026-04-09T13:12:27Z"
-        },
-        "committer": {
-          "name": "GitHub",
-          "email": "noreply@github.com",
-          "date": "2026-04-09T13:12:27Z"
-        },
-        "message": "Merge pull request #4 from factspark23-hash/feat/7-major-features\n\nfeat: 7 Major Features \u2014 42 Tools Total",
-        "tree": {
-          "sha": "d98269fd544a48960ca45a5bd1095b76ee117785",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/d98269fd544a48960ca45a5bd1095b76ee117785"
-        },
-        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/3b8b4b26c152931f8ccb063dd72badf1a80a6517",
-        "comment_count": 0,
-        "verification": {
-          "verified": true,
-          "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp16W7CRC1aQ7uu5UhlAAAUP4QAHOy++KmZ2SPCLuk5gve84rQ\nxtK8MOS6ZbVXJFqvvP3as1cnrL9Tl85Chpeh0FxXOllumGas5Gaf7Xyhq3w/Ya9D\nfmLRNURURNOr2Keve4s76/ncOOUjZ6heWyDBOMJcYacV4ztjWGtCY6O9sCrNiipx\n5mdOprV/grLPgoe+EAYq/2HDsqm11okM4vkNdKIn1zNzs4HFNZZjlsLGlQrdnU/L\nSlL4hjHIpz/2weiY0hpEEEYMrTt9iU2RXv+wT8dIY/O+bySDM2K+Wy4jcJ4yLrdY\nTQxKWT1paTv+WuMCE9N+KljQqSQgGiv05MkoF5IRATIo9xqkNy8piKUmDiJIMSv1\nhOiApN5Wo57I8op95e0WnxmNsU2CIQz83xPS0kVqlGKZTqG4/ZoskXX/qVmC66SK\n6XJMawLzYKDSMbwHLoTQy3QDdVBaSgYDpePbSZ7wvMgIuSuyXY6BPyFDrSpTVrcV\nt/FzIwdoSPfMXT2G+XF5deJm3faIUb7lnq3RylF5hveb8CC95qbk+INWqynrndsa\nuwITniJ0UBO79TKMZVDgsTpJlLwYPwcVzon9Wi30SjAEZS1rgIQvu6EabrzhfAlb\nBKk9MbbRRSlJb8mpIUDgwoznq/JWTHmA8dMezrwnOfZJwANLgRoaElsTYyDle2A3\nw0WB0kRpRTO35A2v2wPg\n=l9cI\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree d98269fd544a48960ca45a5bd1095b76ee117785\nparent 9f3fcd21387c34a55a6e72acae329c830ee01fda\nparent ab97bda51c24d62c08914fde04089c896541c95a\nauthor factspark23-hash <factspark23@gmail.com> 1775740347 +0530\ncommitter GitHub <noreply@github.com> 1775740347 +0530\n\nMerge pull request #4 from factspark23-hash/feat/7-major-features\n\nfeat: 7 Major Features \u2014 42 Tools Total",
-          "verified_at": "2026-04-09T13:12:27Z"
-        }
-      },
-      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/3b8b4b26c152931f8ccb063dd72badf1a80a6517",
-      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/3b8b4b26c152931f8ccb063dd72badf1a80a6517",
-      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/3b8b4b26c152931f8ccb063dd72badf1a80a6517/comments",
-      "author": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "committer": {
-        "login": "web-flow",
-        "id": 19864447,
-        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/web-flow",
-        "html_url": "https://github.com/web-flow",
-        "followers_url": "https://api.github.com/users/web-flow/followers",
-        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-        "organizations_url": "https://api.github.com/users/web-flow/orgs",
-        "repos_url": "https://api.github.com/users/web-flow/repos",
-        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/web-flow/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "parents": [
-        {
-          "sha": "9f3fcd21387c34a55a6e72acae329c830ee01fda",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/9f3fcd21387c34a55a6e72acae329c830ee01fda",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/9f3fcd21387c34a55a6e72acae329c830ee01fda"
-        },
-        {
-          "sha": "ab97bda51c24d62c08914fde04089c896541c95a",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/ab97bda51c24d62c08914fde04089c896541c95a",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/ab97bda51c24d62c08914fde04089c896541c95a"
-        }
-      ]
-    },
-    {
-      "sha": "ab97bda51c24d62c08914fde04089c896541c95a",
-      "node_id": "C_kwDOR86dntoAKGFiOTdiZGE1MWMyNGQ2MmMwODkxNGZkZTA0MDg5Yzg5NjU0MWM5NWE",
-      "commit": {
-        "author": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-09T13:11:17Z"
-        },
-        "committer": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-09T13:11:17Z"
-        },
-        "message": "docs: update README \u2014 42 tools, new features section, architecture diagram",
-        "tree": {
-          "sha": "d98269fd544a48960ca45a5bd1095b76ee117785",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/d98269fd544a48960ca45a5bd1095b76ee117785"
-        },
-        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/ab97bda51c24d62c08914fde04089c896541c95a",
-        "comment_count": 0,
-        "verification": {
-          "verified": false,
-          "reason": "unsigned",
-          "signature": null,
-          "payload": null,
-          "verified_at": null
-        }
-      },
-      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/ab97bda51c24d62c08914fde04089c896541c95a",
-      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/ab97bda51c24d62c08914fde04089c896541c95a",
-      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/ab97bda51c24d62c08914fde04089c896541c95a/comments",
-      "author": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "committer": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "parents": [
-        {
-          "sha": "3110e6e54439675e112fea9518f1f5acf3e777d4",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/3110e6e54439675e112fea9518f1f5acf3e777d4",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/3110e6e54439675e112fea9518f1f5acf3e777d4"
-        }
-      ]
-    },
-    {
-      "sha": "3110e6e54439675e112fea9518f1f5acf3e777d4",
-      "node_id": "C_kwDOR86dntoAKDMxMTBlNmU1NDQzOTY3NWUxMTJmZWE5NTE4ZjFmNWFjZjNlNzc3ZDQ",
-      "commit": {
-        "author": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-09T13:04:25Z"
-        },
-        "committer": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-09T13:04:25Z"
-        },
-        "message": "feat: 7 major features \u2014 Smart Finder, Workflows, Network Capture, Page Analyzer, Proxy, Mobile Emulation, Session Save/Restore\n\nNew modules:\n- smart_finder.py: Find elements by visible text (no CSS selector needed)\n- workflow.py: Multi-step workflows with variables, retries, templates\n- network_capture.py: Capture/filter/export all HTTP requests\n- page_analyzer.py: Page summary, tables, SEO audit, accessibility check\n\nBrowser upgrades:\n- Proxy support (HTTP/HTTPS/SOCKS5)\n- Mobile device emulation (iPhone, Galaxy, iPad, Pixel presets)\n- Session save/restore (cookies, localStorage, sessionStorage, tabs)\n\nAPI: 42 tools total (up from 25). All connectors updated (MCP, OpenAI, OpenClaw).",
-        "tree": {
-          "sha": "e92f4d726018f5cfadf0b0fd236310739170006a",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/e92f4d726018f5cfadf0b0fd236310739170006a"
-        },
-        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/3110e6e54439675e112fea9518f1f5acf3e777d4",
-        "comment_count": 0,
-        "verification": {
-          "verified": false,
-          "reason": "unsigned",
-          "signature": null,
-          "payload": null,
-          "verified_at": null
-        }
-      },
-      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/3110e6e54439675e112fea9518f1f5acf3e777d4",
-      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/3110e6e54439675e112fea9518f1f5acf3e777d4",
-      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/3110e6e54439675e112fea9518f1f5acf3e777d4/comments",
-      "author": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "committer": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "parents": [
-        {
-          "sha": "9f3fcd21387c34a55a6e72acae329c830ee01fda",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/9f3fcd21387c34a55a6e72acae329c830ee01fda",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/9f3fcd21387c34a55a6e72acae329c830ee01fda"
-        }
-      ]
-    },
-    {
-      "sha": "9f3fcd21387c34a55a6e72acae329c830ee01fda",
-      "node_id": "C_kwDOR86dntoAKDlmM2ZjZDIxMzg3YzM0YTU1YTZlNzJhY2FlMzI5YzgzMGVlMDFmZGE",
-      "commit": {
-        "author": {
-          "name": "dde",
-          "email": "dde@agent-os.dev",
-          "date": "2026-04-08T15:51:35Z"
-        },
-        "committer": {
-          "name": "dde",
-          "email": "dde@agent-os.dev",
-          "date": "2026-04-08T15:51:35Z"
-        },
-        "message": "fix: set_cookie and console-logs\n\n- set_cookie: add required 'path' param, auto-infer domain from current URL\n  (handles ports, about:blank gracefully), auto-detect secure from scheme,\n  support httpOnly/sameSite, proper error handling\n- console-logs: wire Playwright page.on('console') and page.on('pageerror')\n  listeners instead of relying on unpopulated JS array. Captures log/warn/\n  error/info/debug/pageerror with source location and timestamps.\n  Supports clear flag to flush buffer, per-tab isolation, 200-entry cap.",
-        "tree": {
-          "sha": "3fb4f08b1100dbba457af06df9e21957a918418f",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/3fb4f08b1100dbba457af06df9e21957a918418f"
-        },
-        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/9f3fcd21387c34a55a6e72acae329c830ee01fda",
-        "comment_count": 0,
-        "verification": {
-          "verified": false,
-          "reason": "unsigned",
-          "signature": null,
-          "payload": null,
-          "verified_at": null
-        }
-      },
-      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/9f3fcd21387c34a55a6e72acae329c830ee01fda",
-      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/9f3fcd21387c34a55a6e72acae329c830ee01fda",
-      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/9f3fcd21387c34a55a6e72acae329c830ee01fda/comments",
-      "author": null,
-      "committer": null,
-      "parents": [
-        {
-          "sha": "046547bb2b49e8cc0dd33d8fd213d7a27efd1c52",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/046547bb2b49e8cc0dd33d8fd213d7a27efd1c52",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/046547bb2b49e8cc0dd33d8fd213d7a27efd1c52"
-        }
-      ]
-    },
-    {
-      "sha": "046547bb2b49e8cc0dd33d8fd213d7a27efd1c52",
-      "node_id": "C_kwDOR86dntoAKDA0NjU0N2JiMmI0OWU4Y2MwZGQzM2Q4ZmQyMTNkN2EyN2VmZDFjNTI",
-      "commit": {
-        "author": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-08T13:52:47Z"
-        },
-        "committer": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-08T13:52:47Z"
-        },
-        "message": "feat: Docker support, deployment docs, README rewrite\n\n- Dockerfile: multi-stage build (~350MB final image)\n- docker-compose.yml: one-command deployment with health checks\n- .dockerignore: smaller build context\n- .env.example: template for environment config\n- .gitignore: added .env files\n- README.md: complete rewrite with Docker-first approach, honest positioning, clear architecture",
-        "tree": {
-          "sha": "a2138bc98fa47cb4dcf824d5c4c592963f851a98",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/a2138bc98fa47cb4dcf824d5c4c592963f851a98"
-        },
-        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/046547bb2b49e8cc0dd33d8fd213d7a27efd1c52",
-        "comment_count": 0,
-        "verification": {
-          "verified": false,
-          "reason": "unsigned",
-          "signature": null,
-          "payload": null,
-          "verified_at": null
-        }
-      },
-      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/046547bb2b49e8cc0dd33d8fd213d7a27efd1c52",
-      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/046547bb2b49e8cc0dd33d8fd213d7a27efd1c52",
-      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/046547bb2b49e8cc0dd33d8fd213d7a27efd1c52/comments",
-      "author": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "committer": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "parents": [
-        {
-          "sha": "c56fb933a8cccec581af98fe84d79e1d83c23f81",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/c56fb933a8cccec581af98fe84d79e1d83c23f81",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/c56fb933a8cccec581af98fe84d79e1d83c23f81"
-        }
-      ]
-    },
-    {
-      "sha": "c56fb933a8cccec581af98fe84d79e1d83c23f81",
-      "node_id": "C_kwDOR86dntoAKGM1NmZiOTMzYThjY2NlYzU4MWFmOThmZTg0ZDc5ZTFkODNjMjNmODE",
-      "commit": {
-        "author": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-08T13:43:58Z"
-        },
-        "committer": {
-          "name": "factspark23-hash",
-          "email": "factspark23-hash@users.noreply.github.com",
-          "date": "2026-04-08T13:43:58Z"
-        },
-        "message": "feat: unify all connectors to 25 tools + cross-connector consistency tests\n\n- OpenAI connector: added 9 missing tools (get-dom, get-images, reload, save-creds, auto-login, scan-sensitive, scroll, status, tabs)\n- OpenClaw connector: added 13 missing tools (back, forward, get-dom, get-images, get-links, hover, press, reload, scan-sensitive, status, tabs, type, wait)\n- Claude connector: added 8 missing tools (get-dom, get-images, reload, save-creds, auto-login, scan-sensitive, status, tabs)\n- OpenAI/Claude now generated from single canonical source (no duplication)\n- Added cross-connector test that enforces all 4 connectors expose the same 25 tools\n- All 29 tests pass",
-        "tree": {
-          "sha": "98425e575619ac40939adf116980d2a56eec6334",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/trees/98425e575619ac40939adf116980d2a56eec6334"
-        },
-        "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/git/commits/c56fb933a8cccec581af98fe84d79e1d83c23f81",
-        "comment_count": 0,
-        "verification": {
-          "verified": false,
-          "reason": "unsigned",
-          "signature": null,
-          "payload": null,
-          "verified_at": null
-        }
-      },
-      "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/c56fb933a8cccec581af98fe84d79e1d83c23f81",
-      "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/c56fb933a8cccec581af98fe84d79e1d83c23f81",
-      "comments_url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/c56fb933a8cccec581af98fe84d79e1d83c23f81/comments",
-      "author": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "committer": {
-        "login": "factspark23-hash",
-        "id": 256930858,
-        "node_id": "U_kgDOD1B0Kg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/256930858?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/factspark23-hash",
-        "html_url": "https://github.com/factspark23-hash",
-        "followers_url": "https://api.github.com/users/factspark23-hash/followers",
-        "following_url": "https://api.github.com/users/factspark23-hash/following{/other_user}",
-        "gists_url": "https://api.github.com/users/factspark23-hash/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/factspark23-hash/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/factspark23-hash/subscriptions",
-        "organizations_url": "https://api.github.com/users/factspark23-hash/orgs",
-        "repos_url": "https://api.github.com/users/factspark23-hash/repos",
-        "events_url": "https://api.github.com/users/factspark23-hash/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/factspark23-hash/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "parents": [
-        {
-          "sha": "137b7e95e2a0989fc0ad3361e64cae52fb0d577e",
-          "url": "https://api.github.com/repos/factspark23-hash/Agent-OS/commits/137b7e95e2a0989fc0ad3361e64cae52fb0d577e",
-          "html_url": "https://github.com/factspark23-hash/Agent-OS/commit/137b7e95e2a0989fc0ad3361e64cae52fb0d577e"
-        }
-      ]
     }
   ],
-  "fetched_at": "2026-04-09T18:44:08.896636+00:00"
+  "fetched_at": "2026-04-10T03:20:04.889009+00:00"
 }
